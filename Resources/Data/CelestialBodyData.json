@@ -1,0 +1,225 @@
+{
+	"objects": [	
+		{
+			"name": "Sun",
+			
+			"initialRotationX": 0, "initialRotationY": 0, "initialRotationZ": 0,
+			"positionX": 0, "positionY": 0, "positionZ": 0,
+			"material": "Sunbase",
+			"scaleX": 10, "scaleY": 10, "scaleZ": 10,
+			"rotationUnit": "day",
+			"rotationDirectionX": 0, "rotationStepX": 0, "rotationScalarX": 0,
+
+			"rotationDirectionY": 1,
+			"rotationStepY": 1,
+			"rotationScalarY": 1,
+
+			"rotationDirectionZ": 0,
+			"rotationStepZ": 0,
+			"rotationScalarZ": 0,
+
+			"orbitTarget": "null",
+			"orbitUnit": "null",
+			
+			"orbitDirectionX": 0,
+			"orbitStepX": 0,
+			"orbitScalarX": 0,
+
+			"orbitDirectionY": 0,
+			"orbitStepY": 0,
+			"orbitScalarY": 0,
+
+			"orbitDirectionZ": 0,
+			"orbitStepZ": 0,
+			"orbitScalarZ": 0
+		},
+
+		{
+			"name": "Mercury",
+			
+			"initialRotationX": 0,
+			"initialRotationY": 0,
+			"initialRotationZ": 0,
+			
+			"positionX": 16,
+			"positionY": 0,
+			"positionZ": 0,
+			
+			"material": "BarrenGreyBase",
+			
+			"scaleX": 0.33,
+			"scaleY": 0.33,
+			"scaleZ": 0.33,
+			
+			"rotationUnit": "day",
+			
+			"rotationDirectionX": -1,
+			"rotationStepX": 59,
+			"rotationScalarX": 1,
+
+			"rotationDirectionY": 0,
+			"rotationStepY": 0,
+			"rotationScalarY": 0,
+
+			"rotationDirectionZ": 1,
+			"rotationStepZ": 59,
+			"rotationScalarZ": 1,
+
+			"orbitTarget": "Sun",
+			"orbitUnit": "day",
+			
+			"orbitDirectionX": 0,
+			"orbitStepX": 0,
+			"orbitScalarX": 0,
+
+			"orbitDirectionY": 1,
+			"orbitStepY": 88,
+			"orbitScalarY": 1,
+
+			"orbitDirectionZ": -1,
+			"orbitStepZ": 88,
+			"orbitScalarZ": 1
+		},
+
+		{
+			"name": "Venus",
+			
+			"initialRotationX": 0,
+			"initialRotationY": 0,
+			"initialRotationZ": 0,
+			
+			"positionX": 20,
+			"positionY": 0,
+			"positionZ": 0,
+			
+			"material": "BarrenBrownBase",
+			
+			"scaleX": 0.94,
+			"scaleY": 0.94,
+			"scaleZ": 0.94,
+			
+			"rotationUnit": "day",
+			
+			"rotationDirectionX": -1,
+			"rotationStepX": 243,
+			"rotationScalarX": 1,
+
+			"rotationDirectionY": 0,
+			"rotationStepY": 0,
+			"rotationScalarY": 0,
+
+			"rotationDirectionZ": 1,
+			"rotationStepZ": 243,
+			"rotationScalarZ": 1,
+
+			"orbitTarget": "Sun",
+			"orbitUnit": "day",
+			
+			"orbitDirectionX": 0,
+			"orbitStepX": 0,
+			"orbitScalarX": 0,
+
+			"orbitDirectionY": 1,
+			"orbitStepY": 243,
+			"orbitScalarY": 1,
+
+			"orbitDirectionZ": -1,
+			"orbitStepZ": 243,
+			"orbitScalarZ": 1
+		},
+		
+		{ 
+			"name": "Earth",
+			
+			"initialRotationX": 0,
+			"initialRotationY": 0,
+			"initialRotationZ": 0,
+			
+			"positionX": 24,
+			"positionY": 0,
+			"positionZ": 0,
+			
+			"material": "WaterBase",
+			
+			"scaleX": 1,
+			"scaleY": 1,
+			"scaleZ": 1,
+			
+			"rotationUnit": "day",
+			
+			"rotationDirectionX": -1,
+			"rotationStepX": 1,
+			"rotationScalarX": 1,
+
+			"rotationDirectionY": 0,
+			"rotationStepY": 0,
+			"rotationScalarY": 0,
+
+			"rotationDirectionZ": 1,
+			"rotationStepZ": 1,
+			"rotationScalarZ": 1,
+
+			"orbitTarget": "Sun",
+			"orbitUnit": "year",
+			
+			"orbitDirectionX": 0,
+			"orbitStepX": 0,
+			"orbitScalarX": 0,
+
+			"orbitDirectionY": 1,
+			"orbitStepY": 1,
+			"orbitScalarY": 1,
+
+			"orbitDirectionZ": -1,
+			"orbitStepZ": 1,
+			"orbitScalarZ": 1
+		},
+		
+		{
+			"name": "Moon",
+			
+			"initialRotationX": 0,
+			"initialRotationY": 0,
+			"initialRotationZ": 0,
+			
+			"positionX": 25,
+			"positionY": 0,
+			"positionZ": 0,
+			
+			"material": "BarrenGreyBase",
+			
+			"scaleX": 0.27,
+			"scaleY": 0.27,
+			"scaleZ": 0.27,
+			
+			"rotationUnit": "day",
+			
+			"rotationDirectionX": -1,
+			"rotationStepX": 27,
+			"rotationScalarX": 1,
+
+			"rotationDirectionY": 0,
+			"rotationStepY": 0,
+			"rotationScalarY": 0,
+
+			"rotationDirectionZ": 1,
+			"rotationStepZ": 27,
+			"rotationScalarZ": 1,
+
+			"orbitTarget": "Earth",
+			"orbitUnit": "day",
+			
+			"orbitDirectionX": 0,
+			"orbitStepX": 0,
+			"orbitScalarX": 0,
+
+			"orbitDirectionY": 1,
+			"orbitStepY": 27,
+			"orbitScalarY": 1,
+
+			"orbitDirectionZ": -1,
+			"orbitStepZ": 27,
+			"orbitScalarZ": 1
+		}
+	]
+}

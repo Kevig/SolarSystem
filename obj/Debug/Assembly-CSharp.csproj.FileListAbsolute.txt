@@ -1,0 +1,2 @@
+D:\F Drive\Unity Projects\Fight Game\Space Colony\SpaceColony\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\F Drive\Unity Projects\Fight Game\Space Colony\SpaceColony\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
